@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #FFFEFF;
+    --cor2: #4BBEBB;
+    --cor3: #66C6C9;
+    --cor4: #C8E451;
+    --cor5: #D4D4D4;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+}
+
+.primeiro-quadrado {
+    background-color: var(--cor1);
+    width: 650px;
+    height: 157px;
+    margin-top: 50px;
+    margin-left: 400px;
+    padding: 10px;
+
+    min-width: 309px;
+    max-width: 1000px;
+}
+
+.primeiro-quadrado h1 {
+    margin-left: 20px;
+    color: var(--cor2);
+}
+
+.primeira-info {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: var(--cor4);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.info {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: var(--cor5);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.segundo-quadrado {
+    background-color: var(--cor2);
+    width: 320px;
+    height: 250px;
+    border-radius: 0px 0px 0px 10px;
+    margin-left: 400px;
+    padding: 2px;
+
+    min-width: 309px;
+    max-width: 1000px;
+}
+
+.segundo-quadrado h2 {
+    margin-top: 10px;
+    margin-left: 30px;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.valor {
+    color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.data {
+    margin-top: -26px;
+    margin-left: 95px;
+    color: var(--cor5);
+    font-weight: bold;
+}
+
+.segunda-info {
+    margin-top: 10px;
+    margin-left: 30px;
+    color: var(--cor5);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.segundo-quadrado button {
+    margin-top: 20px;
+    margin-left: 53px;
+    padding: 20px;
+    width: 253px;
+    background-color: var(--cor4);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+
+    
+}
+
+.segundo-quadrado button:hover {
+    background-color: white;
+    color: var(--cor2);
+    transition-duration: 0.5s;
+
+}
+
+.terceiro-quadrado {
+    background-color: var(--cor3);
+    width: 346px;
+    height: 254px;
+    margin-top: -254px;
+    margin-left: 724px;
+    border-radius: 0px 0px 10px 0px;
+
+    min-width: 309px;
+    max-width: 1000px;
+}
+
+.criador {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    min-width: 309px;
+    max-width: 1000px;
+}
+
+.terceira-info {
+    max-width: 150px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 98px;
+    font-weight: bold;
+    font-size: 18px;
+}
